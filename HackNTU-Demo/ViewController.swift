@@ -34,19 +34,43 @@ class ViewController: UIViewController {
         self.deleteButton.addTarget(self, action: #selector(ViewController.deleteAction), for: .touchUpInside)
     }
     
+    private func getText() -> String {
+        return textView.text
+    }
+    
+    private func getKey() -> String {
+        return "textview.key"
+    }
+    
     func readAction() {
         print("Read")
+        
+        let textFromUD: String? = UDHelper.sharedInstance.getTextFromUserDefault(key: getKey())
+        
+        if textFromUD == nil {
+            textView.text = "No data in userDefault"
+        } else {
+            textView.text = textFromUD
+        }
+        
     }
     
     func createAction() {
         print("Create")
+        
+        UDHelper.sharedInstance.saveTextIntoUserDefault(text: getText(), key: getKey())
     }
     
     func updateAction() {
         print("Update")
+        
+        UDHelper.sharedInstance.saveTextIntoUserDefault(text: getText(), key: getKey())
     }
     
     func deleteAction() {
+        
+        UDHelper.sharedInstance.saveTextIntoUserDefault(text: nil, key: getKey())
+        
         print("Delete")
     }
 
