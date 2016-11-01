@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8766AFCE9C0CAA4D55CF78 /* Pods_HackNTU_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA6CFE77C29CC95D3F53870 /* Pods_HackNTU_Demo.framework */; };
+		726627C750ED2B7E95CE80A7 /* Pods_HackNTU_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB43162B4B08A491CDC6ACE /* Pods_HackNTU_DemoUITests.framework */; };
 		E9152BE91DC87D95002E6598 /* UDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BE81DC87D95002E6598 /* UDHelper.swift */; };
+		E9152BEE1DC88C4E002E6598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BED1DC88C4E002E6598 /* Task.swift */; };
+		E9152BF01DC88F5B002E6598 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */; };
+		E9152BF21DC891D7002E6598 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */; };
 		E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D851DC65BE200261A0E /* AppDelegate.swift */; };
 		E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D871DC65BE200261A0E /* ViewController.swift */; };
 		E9FE0D8B1DC65BE200261A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE0D891DC65BE200261A0E /* Main.storyboard */; };
@@ -15,6 +20,7 @@
 		E9FE0D901DC65BE200261A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE0D8E1DC65BE200261A0E /* LaunchScreen.storyboard */; };
 		E9FE0D9B1DC65BE200261A0E /* HackNTU_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D9A1DC65BE200261A0E /* HackNTU_DemoTests.swift */; };
 		E9FE0DA61DC65BE200261A0E /* HackNTU_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0DA51DC65BE200261A0E /* HackNTU_DemoUITests.swift */; };
+		ED7D88AF5C7A2694B156D2F8 /* Pods_HackNTU_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C7E0706EB1121CD31D91F6 /* Pods_HackNTU_DemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000F2E4E17D29C3207B61977 /* Pods-HackNTU-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-Demo/Pods-HackNTU-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		23D9EAD32F11FF5C2CA17D9F /* Pods-HackNTU-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-DemoTests/Pods-HackNTU-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		542DC2C08DB0A924A51400DE /* Pods-HackNTU-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-DemoTests/Pods-HackNTU-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		684F11585D62FE6DF6A6DE90 /* Pods-HackNTU-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-DemoUITests/Pods-HackNTU-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78B534ADFC71B4AC0701F824 /* Pods-HackNTU-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-Demo/Pods-HackNTU-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		94C7E0706EB1121CD31D91F6 /* Pods_HackNTU_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackNTU_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB43162B4B08A491CDC6ACE /* Pods_HackNTU_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackNTU_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1937A1F06BFBF658E78888A /* Pods-HackNTU-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNTU-DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackNTU-DemoUITests/Pods-HackNTU-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9152BE81DC87D95002E6598 /* UDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDHelper.swift; sourceTree = "<group>"; };
+		E9152BED1DC88C4E002E6598 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		E9FE0D821DC65BE200261A0E /* HackNTU-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackNTU-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE0D851DC65BE200261A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FE0D871DC65BE200261A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 		E9FE0DA11DC65BE200261A0E /* HackNTU-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackNTU-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE0DA51DC65BE200261A0E /* HackNTU_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNTU_DemoUITests.swift; sourceTree = "<group>"; };
 		E9FE0DA71DC65BE200261A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA6CFE77C29CC95D3F53870 /* Pods_HackNTU_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackNTU_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8766AFCE9C0CAA4D55CF78 /* Pods_HackNTU_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7D88AF5C7A2694B156D2F8 /* Pods_HackNTU_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726627C750ED2B7E95CE80A7 /* Pods_HackNTU_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24D0D525FA2AE249BEAD753E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B534ADFC71B4AC0701F824 /* Pods-HackNTU-Demo.debug.xcconfig */,
+				000F2E4E17D29C3207B61977 /* Pods-HackNTU-Demo.release.xcconfig */,
+				542DC2C08DB0A924A51400DE /* Pods-HackNTU-DemoTests.debug.xcconfig */,
+				23D9EAD32F11FF5C2CA17D9F /* Pods-HackNTU-DemoTests.release.xcconfig */,
+				E1937A1F06BFBF658E78888A /* Pods-HackNTU-DemoUITests.debug.xcconfig */,
+				684F11585D62FE6DF6A6DE90 /* Pods-HackNTU-DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E14ADBEBC5360EA3DE0E0AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6CFE77C29CC95D3F53870 /* Pods_HackNTU_Demo.framework */,
+				94C7E0706EB1121CD31D91F6 /* Pods_HackNTU_DemoTests.framework */,
+				BBB43162B4B08A491CDC6ACE /* Pods_HackNTU_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9152BEA1DC88AB4002E6598 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				E9152BED1DC88C4E002E6598 /* Task.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
 		E9FE0D791DC65BE100261A0E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				E9FE0D991DC65BE200261A0E /* HackNTU-DemoTests */,
 				E9FE0DA41DC65BE200261A0E /* HackNTU-DemoUITests */,
 				E9FE0D831DC65BE200261A0E /* Products */,
+				24D0D525FA2AE249BEAD753E /* Pods */,
+				E14ADBEBC5360EA3DE0E0AE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +155,10 @@
 			children = (
 				E9FE0D851DC65BE200261A0E /* AppDelegate.swift */,
 				E9FE0D871DC65BE200261A0E /* ViewController.swift */,
+				E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */,
 				E9152BE81DC87D95002E6598 /* UDHelper.swift */,
+				E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */,
+				E9152BEA1DC88AB4002E6598 /* Realm */,
 				E9FE0D891DC65BE200261A0E /* Main.storyboard */,
 				E9FE0D8C1DC65BE200261A0E /* Assets.xcassets */,
 				E9FE0D8E1DC65BE200261A0E /* LaunchScreen.storyboard */,
@@ -135,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9FE0DAA1DC65BE200261A0E /* Build configuration list for PBXNativeTarget "HackNTU-Demo" */;
 			buildPhases = (
+				84660F2C1A7E6FDAE2746C12 /* [CP] Check Pods Manifest.lock */,
 				E9FE0D7E1DC65BE100261A0E /* Sources */,
 				E9FE0D7F1DC65BE100261A0E /* Frameworks */,
 				E9FE0D801DC65BE100261A0E /* Resources */,
+				54E1068B5EF01932671D0F7B /* [CP] Embed Pods Frameworks */,
+				E543A0353F5C42CB84A80D1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9FE0DAD1DC65BE200261A0E /* Build configuration list for PBXNativeTarget "HackNTU-DemoTests" */;
 			buildPhases = (
+				0CD8D55626C23A05C7869CE6 /* [CP] Check Pods Manifest.lock */,
 				E9FE0D921DC65BE200261A0E /* Sources */,
 				E9FE0D931DC65BE200261A0E /* Frameworks */,
 				E9FE0D941DC65BE200261A0E /* Resources */,
+				67E6A5427782C6E4A13C9CC1 /* [CP] Embed Pods Frameworks */,
+				1EFDE90A4613C0575F7228FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9FE0DB01DC65BE200261A0E /* Build configuration list for PBXNativeTarget "HackNTU-DemoUITests" */;
 			buildPhases = (
+				1A742D12728E59FE5F3AFE9B /* [CP] Check Pods Manifest.lock */,
 				E9FE0D9D1DC65BE200261A0E /* Sources */,
 				E9FE0D9E1DC65BE200261A0E /* Frameworks */,
 				E9FE0D9F1DC65BE200261A0E /* Resources */,
+				41BEC42DBBE32F5C419E9AF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +325,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CD8D55626C23A05C7869CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A742D12728E59FE5F3AFE9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFDE90A4613C0575F7228FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackNTU-DemoTests/Pods-HackNTU-DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41BEC42DBBE32F5C419E9AF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackNTU-DemoUITests/Pods-HackNTU-DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E1068B5EF01932671D0F7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackNTU-Demo/Pods-HackNTU-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E6A5427782C6E4A13C9CC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackNTU-DemoTests/Pods-HackNTU-DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84660F2C1A7E6FDAE2746C12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E543A0353F5C42CB84A80D1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackNTU-Demo/Pods-HackNTU-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9FE0D7E1DC65BE100261A0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9152BF21DC891D7002E6598 /* CustomTableViewCell.swift in Sources */,
 				E9152BE91DC87D95002E6598 /* UDHelper.swift in Sources */,
+				E9152BF01DC88F5B002E6598 /* TasksTableViewController.swift in Sources */,
 				E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */,
+				E9152BEE1DC88C4E002E6598 /* Task.swift in Sources */,
 				E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +608,7 @@
 		};
 		E9FE0DAB1DC65BE200261A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B534ADFC71B4AC0701F824 /* Pods-HackNTU-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22PA9WA89Q;
@@ -430,6 +622,7 @@
 		};
 		E9FE0DAC1DC65BE200261A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000F2E4E17D29C3207B61977 /* Pods-HackNTU-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22PA9WA89Q;
@@ -443,6 +636,7 @@
 		};
 		E9FE0DAE1DC65BE200261A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542DC2C08DB0A924A51400DE /* Pods-HackNTU-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +652,7 @@
 		};
 		E9FE0DAF1DC65BE200261A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D9EAD32F11FF5C2CA17D9F /* Pods-HackNTU-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +668,7 @@
 		};
 		E9FE0DB11DC65BE200261A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1937A1F06BFBF658E78888A /* Pods-HackNTU-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 22PA9WA89Q;
@@ -487,6 +683,7 @@
 		};
 		E9FE0DB21DC65BE200261A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684F11585D62FE6DF6A6DE90 /* Pods-HackNTU-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 22PA9WA89Q;
