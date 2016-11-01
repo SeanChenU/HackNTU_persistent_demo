@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9152BE91DC87D95002E6598 /* UDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BE81DC87D95002E6598 /* UDHelper.swift */; };
 		E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D851DC65BE200261A0E /* AppDelegate.swift */; };
 		E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D871DC65BE200261A0E /* ViewController.swift */; };
 		E9FE0D8B1DC65BE200261A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE0D891DC65BE200261A0E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9152BE81DC87D95002E6598 /* UDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDHelper.swift; sourceTree = "<group>"; };
 		E9FE0D821DC65BE200261A0E /* HackNTU-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackNTU-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE0D851DC65BE200261A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FE0D871DC65BE200261A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E9FE0D851DC65BE200261A0E /* AppDelegate.swift */,
 				E9FE0D871DC65BE200261A0E /* ViewController.swift */,
+				E9152BE81DC87D95002E6598 /* UDHelper.swift */,
 				E9FE0D891DC65BE200261A0E /* Main.storyboard */,
 				E9FE0D8C1DC65BE200261A0E /* Assets.xcassets */,
 				E9FE0D8E1DC65BE200261A0E /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9152BE91DC87D95002E6598 /* UDHelper.swift in Sources */,
 				E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */,
 				E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				E9FE0DAC1DC65BE200261A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9FE0DAD1DC65BE200261A0E /* Build configuration list for PBXNativeTarget "HackNTU-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				E9FE0DAF1DC65BE200261A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9FE0DB01DC65BE200261A0E /* Build configuration list for PBXNativeTarget "HackNTU-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				E9FE0DB21DC65BE200261A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
