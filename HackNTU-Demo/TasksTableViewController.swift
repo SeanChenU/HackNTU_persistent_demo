@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import RealmSwift
 
 class TasksTableViewController: UITableViewController {
     
     var listData: [String]?
-
+    @IBOutlet weak var addTask: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +26,26 @@ class TasksTableViewController: UITableViewController {
         listData = ["Learn to use Xcode", "Learn to write Swift"]
         
         self.tableView.register(CustomTableViewCell.classForCoder(), forCellReuseIdentifier: "customCell")
+        
+        setup()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let realm = try! Realm()
+        
+        let allTasks = realm.objects(Task.self)
+        print(allTasks)
+    }
+    
+    private func setup() {
+        self.addTask.target = self
+        self.addTask.action = #selector(TasksTableViewController.addTaskAction)
+    }
+    
+    func addTaskAction() {
+        self.performSegue(withIdentifier: "presentCreateTask", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {

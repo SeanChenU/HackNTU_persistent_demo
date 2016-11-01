@@ -111,7 +111,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1UJ-L5-8sM" id="Iee-a9-wBm">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -121,11 +121,77 @@
                             <outlet property="delegate" destination="l4f-8U-aQ0" id="g42-dM-aTg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="StM-BV-aua"/>
+                    <navigationItem key="navigationItem" id="StM-BV-aua">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="0nd-jN-7JR"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addTask" destination="0nd-jN-7JR" id="GyE-gB-in4"/>
+                        <segue destination="M0d-Ra-8Yc" kind="show" identifier="presentCreateTask" id="FUQ-tD-2F6"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyc-CC-gqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1884" y="143.47826086956522"/>
+        </scene>
+        <!--Create Task View Controller-->
+        <scene sceneID="E5Q-U9-EQ8">
+            <objects>
+                <viewController id="M0d-Ra-8Yc" customClass="CreateTaskViewController" customModule="HackNTU_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X47-NC-TSi"/>
+                        <viewControllerLayoutGuide type="bottom" id="GgC-Bd-eUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a8B-O1-U5j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Task Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7QI-4f-KQr">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Priority" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTP-ps-1GE">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Deadline" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KT6-bI-cUc">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytn-r2-8I1">
+                                <frame key="frameInset" minX="164" minY="267" width="46" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneAction:" destination="M0d-Ra-8Yc" eventType="touchUpInside" id="oif-oz-HgE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ytn-r2-8I1" firstAttribute="top" secondItem="KT6-bI-cUc" secondAttribute="bottom" constant="26" id="6jF-oj-iwp"/>
+                            <constraint firstItem="Ytn-r2-8I1" firstAttribute="centerX" secondItem="a8B-O1-U5j" secondAttribute="centerX" id="8d5-wn-a4x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KT6-bI-cUc" secondAttribute="trailing" constant="30" id="MjZ-4k-xm4"/>
+                            <constraint firstItem="7QI-4f-KQr" firstAttribute="top" secondItem="X47-NC-TSi" secondAttribute="bottom" constant="36" id="ZTB-4J-pHQ"/>
+                            <constraint firstItem="KT6-bI-cUc" firstAttribute="top" secondItem="WTP-ps-1GE" secondAttribute="bottom" constant="28" id="f5P-88-BBc"/>
+                            <constraint firstItem="7QI-4f-KQr" firstAttribute="leading" secondItem="a8B-O1-U5j" secondAttribute="leadingMargin" constant="29" id="gKd-ii-eK6"/>
+                            <constraint firstItem="WTP-ps-1GE" firstAttribute="leading" secondItem="a8B-O1-U5j" secondAttribute="leadingMargin" constant="29" id="heu-X3-FWU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7QI-4f-KQr" secondAttribute="trailing" constant="30" id="l0S-8J-3et"/>
+                            <constraint firstItem="WTP-ps-1GE" firstAttribute="top" secondItem="7QI-4f-KQr" secondAttribute="bottom" constant="23" id="ouf-95-hjl"/>
+                            <constraint firstItem="KT6-bI-cUc" firstAttribute="leading" secondItem="a8B-O1-U5j" secondAttribute="leadingMargin" constant="29" id="tE2-3i-0do"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WTP-ps-1GE" secondAttribute="trailing" constant="30" id="yPn-ES-Uf7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deadlineTextField" destination="KT6-bI-cUc" id="prf-SM-aHQ"/>
+                        <outlet property="priorityTextField" destination="WTP-ps-1GE" id="Lqu-58-e8z"/>
+                        <outlet property="taskNameTextField" destination="7QI-4f-KQr" id="egV-Xk-BO2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3by-Bk-eiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2640.8000000000002" y="139.880059970015"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0E1-KK-LWT">

@@ -13,6 +13,7 @@
 		E9152BEE1DC88C4E002E6598 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BED1DC88C4E002E6598 /* Task.swift */; };
 		E9152BF01DC88F5B002E6598 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */; };
 		E9152BF21DC891D7002E6598 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */; };
+		E9152BF41DC89485002E6598 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9152BF31DC89485002E6598 /* CreateTaskViewController.swift */; };
 		E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D851DC65BE200261A0E /* AppDelegate.swift */; };
 		E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE0D871DC65BE200261A0E /* ViewController.swift */; };
 		E9FE0D8B1DC65BE200261A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE0D891DC65BE200261A0E /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		E9152BED1DC88C4E002E6598 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E9152BF31DC89485002E6598 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 		E9FE0D821DC65BE200261A0E /* HackNTU-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackNTU-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE0D851DC65BE200261A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FE0D871DC65BE200261A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				E9152BEF1DC88F5B002E6598 /* TasksTableViewController.swift */,
 				E9152BE81DC87D95002E6598 /* UDHelper.swift */,
 				E9152BF11DC891D7002E6598 /* CustomTableViewCell.swift */,
+				E9152BF31DC89485002E6598 /* CreateTaskViewController.swift */,
 				E9152BEA1DC88AB4002E6598 /* Realm */,
 				E9FE0D891DC65BE200261A0E /* Main.storyboard */,
 				E9FE0D8C1DC65BE200261A0E /* Assets.xcassets */,
@@ -459,6 +462,7 @@
 				E9FE0D881DC65BE200261A0E /* ViewController.swift in Sources */,
 				E9152BEE1DC88C4E002E6598 /* Task.swift in Sources */,
 				E9FE0D861DC65BE200261A0E /* AppDelegate.swift in Sources */,
+				E9152BF41DC89485002E6598 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
